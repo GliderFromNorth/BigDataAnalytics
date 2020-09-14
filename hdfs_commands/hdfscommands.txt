@@ -1,0 +1,22 @@
+jps
+hdfs dfs -mkdir /Demo
+hdfs dfs -ls /
+hdfs dfs -put C:/Users/vinay/Desktop/sem7/Big_Data/hdfs_commands /Demo
+hdfs dfs -cat C:/Users/vinay/Desktop/sem7/Big_Data/hdfs_commands 
+
+hdfs dfs -cat /Users /Demo
+
+hdfs dfs -cp /Demo /test
+hdfs dfs -mv /Demo /test
+
+hdfs dfs -rm -r /Demo
+hdfs dfs -du -s /Demo
+
+hdfs fsck /
+
+hdfs dfs -count /
+
+hdfs dfs -mv/home/Demo /input_dir
+
+hdfs dfs -cat /Users /Demo
+
